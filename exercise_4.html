@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise 4</title>
+</head>
+<body>
+	<script>
+		var input = "hello world dataa how are you - I am happy - that is a good world";
+
+		 var splitString = input.split(" "); 
+
+		 var count = 0
+
+		for(word of splitString) { // for each element in splitString
+			//console.log(word.length);
+			if(word.length == 5) { // if the element is equal to 5
+				console.log(word);// the print the element
+				++count;
+			}
+		}
+
+		console.log(count);
+		
+
+		// // Write a program to print the number of words with five letters in the input (e.g. hello, world)
+		// // The output for the sample input should be 4 ("hello", "world", "happy", "world")
+		// // Make sure the program works no matter what the input string is
+		// var output = 0;
+
+		// console.log(output);
+	</script>
+
+</body>
+</html>
